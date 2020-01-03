@@ -19,4 +19,23 @@ return Number(s.toFixed(2));
 const hoopCount = n => n < 10 ? "Keep at it until you get it" : "Great, now move on to tricks"; 
    //your code goes here    
 ```
+```javascript
+function removeSmallest(numbers) {
+
+let min = numbers[0];
+let k = 0;
+for ( let i = 0 ; i < numbers.length ; i++) {
+if ( numbers[i] < min ){
+min=numbers[i];
+k=i;
+}
+}
+let newArr = [];
+for ( let i = 0 ; i< numbers.length ; i++){
+if ( i!=k){
+newArr.push(numbers[i]);}
+
+}return newArr;
+}
+```
 
