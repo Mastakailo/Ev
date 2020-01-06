@@ -38,4 +38,25 @@ newArr.push(numbers[i]);}
 }return newArr;
 }
 ```
+```javascript
+function divisors(integer) {
+  let arr = []; 
+  for ( let i = 2 ; i < integer ; i++ ){
+    if  ( integer % i === 0){
+      arr.push(i);
+      }
+    }return (arr.length === 0 ) ? integer + " is prime" : arr;
+ 
+};```
+
+```javascript
+function array_diff(a, b) {
+for ( let i = 0 ; i < b.length ; i++ ){
+  a = a.filter( c => b[i]!== c )
+}return a ; 
+}
+
+
+```
+``````
 
