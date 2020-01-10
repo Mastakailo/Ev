@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
+
+
+
+function accum(s) {
+let cha = s.toLowerCase().split('');
+for (let i = 0; i < s.length ;i++){
+  cha[i] = cha[i].toUpperCase() + cha[i].repeat(i);
+    }
+  return cha.join('-');
+}
+  //  letters[i] = letters[i].toUpperCase() + letters[i].repeat(i)
