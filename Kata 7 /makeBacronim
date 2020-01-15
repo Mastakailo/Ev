@@ -1,0 +1,14 @@
+https://www.codewars.com/kata/55805ab490c73741b7000064/train/javascript
+
+```javascript
+//preload variable: dict
+
+var makeBackronym = function(string){
+string=string.toUpperCase();
+let arr = [];
+for (let i = 0 ; i < string.length; i++){
+  arr.push(dict[string[i]])
+  }
+  return arr.join(' ');
+};
+```
