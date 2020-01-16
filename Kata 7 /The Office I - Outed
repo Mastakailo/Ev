@@ -1,0 +1,23 @@
+https://www.codewars.com/kata/57ecf6efc7fe13eb070000e1/train/javascript
+
+
+function outed(meet, boss){
+let sum = 0;
+let count = 0;
+console.log(meet)
+for (let key in meet){
+count++;
+if (key===boss){
+  sum+=meet[key]+meet[key];
+    }else{
+      sum += meet[key];
+    }
+}
+
+  if ( sum/count <= 5 ){
+    return 'Get Out Now!'
+        }else{
+        return 'Nice Work Champ!'
+        ;}
+
+}
