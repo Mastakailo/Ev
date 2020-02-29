@@ -1,7 +1,7 @@
-https://www.codewars.com/kata/lombok-encapsulation/train/java
+//https://www.codewars.com/kata/lombok-encapsulation/train/java
 
 
-public class EncapsulationDemo{
+/*public class EncapsulationDemo{
     private int number;
 
     public EncapsulationDemo() {
@@ -16,7 +16,7 @@ public class EncapsulationDemo{
 public int getNumber() {
     return number;
 }
-
+//*
 public void setNumber(int number) {
     this.number = number;
 }
@@ -39,4 +39,5 @@ public void setAnObject(Object anObject) {
 
 private String stringValue;
 private Object anObject;
-}
+
+ */
