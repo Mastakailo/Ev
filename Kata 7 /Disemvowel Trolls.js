@@ -2,4 +2,4 @@
 
 function disemvowel(str) {
     return str.replace(/[euoai]/gi,'');
-}
+}   
